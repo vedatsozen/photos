@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(181deg,#04dcb1,#946514);
+    overflow: hidden;
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+  }
+
+
+div#resimler {
+    margin: auto;
+    margin-top: 10px;
+    height:fit-content;
+    width:fit-content;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 20px black;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+
+img.resim {
+    margin: auto;
+    height:100px;
+    width:100px;
+    cursor:pointer;
+    border: 2px solid transparent;
+}
+
+img.resim:hover {
+   border: 2px solid white;
+   transition: 300ms ease;
+}
+
+img.resim:active {
+    transform: scale(0.9);
+}
+
+#ortaresimdiv {
+    margin: auto;
+    margin-top:20px;
+    height:400px;
+    width:500px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px black;
+    border: 2px solid white;
+    cursor: pointer;
+    position: relative;
+}
+
+img#ortaresim {
+
+    height:100%;
+    width:100%;
+
+}
+
+img.ortaresim:hover {
+    box-shadow: 0 0 40px black;
+    transition: 300ms ease;
+}
+
+#arkaplanbtn {
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    background-color: forestgreen;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#arkaplanbtn:active {
+    display: block;
+    transform: scale(0.9);
+}
+
+i.kapat {
+    position: absolute;
+    top:5px;
+    right:10px;
+    background-color: red;
+    color: white;
+    font-size:1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 7px;
+
+}
